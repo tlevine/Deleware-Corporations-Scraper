@@ -1,0 +1,3 @@
+[submodule "lazydriver"]
+	path = lazydriver
+	url = git://github.com/tlevine/lazydriver.git
