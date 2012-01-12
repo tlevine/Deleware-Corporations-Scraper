@@ -1,0 +1,24 @@
+{
+  "name": "Delecorp scraper",
+  "version": "0.1",
+  "description": "Scrape information from the Deleware Division of Corporations site.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://delecorp.delaware.gov/tin/controller"
+      , "https://delecorp.delaware.gov/tin/GINameSearch.jsp"
+      ],
+      "js": [
+        "jquery-1.6.4.min.js"
+      , "browse.js"
+      ]
+    }
+  ],
+  "browser_action": {
+  },
+  "permissions": [
+    "https://delecorp.delaware.gov/tin/controller"
+  , "https://delecorp.delaware.gov/tin/GINameSearch.jsp"
+  ]
+}
+
